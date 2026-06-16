@@ -1,5 +1,18 @@
-beautifulsoup4>=4.12.3
-google-generativeai>=0.8.3
-openai>=1.52.0
-requests>=2.32.3
-yt-dlp>=2025.1.15
+# 抖音视频分析技能依赖包
+
+# 核心依赖
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 可选：文档生成
+python-docx>=1.1.0
+
+# 可选：音频处理（如果本地转录）
+pydub>=0.25.0
+
+# 可选：视频处理
+moviepy>=2.0.0
+
+# 可选：并发处理
+concurrent-log-handler>=0.9.24
