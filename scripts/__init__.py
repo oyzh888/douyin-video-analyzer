@@ -1,0 +1,1 @@
+"""Douyin video analyzer scripts."""
